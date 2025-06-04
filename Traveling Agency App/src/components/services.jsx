@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='services'>
       <h1>Our Services</h1>
-      <img className='bg-img' src="/public/images/bg-img.jpg" alt="" />
+      <img className='bg-img' src="/images/bg-img.jpg" alt="" />
       <div className="content">
         <div className="box">
           <h3>Customized Travel Planning</h3>

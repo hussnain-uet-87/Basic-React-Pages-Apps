@@ -12,6 +12,7 @@ const Navbar = () => {
       console.log("button clicked")
     });
   },[]);
+  // JSX
   return (
     <>
       <div className="hamburger" id="hamburger">

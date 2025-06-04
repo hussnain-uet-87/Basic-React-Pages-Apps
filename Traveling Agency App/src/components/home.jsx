@@ -18,7 +18,7 @@ const Home = () => {
         <button>Plan a Trip <i class="bi bi-arrow-right"></i></button>
       </div>
       <div id="hero-img">
-        <img src="/public/images/hero-img.png" alt="" />
+        <img src="/images/hero-img.png" alt="" />
       </div>
     </div>
   );

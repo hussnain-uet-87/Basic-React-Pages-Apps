@@ -10,10 +10,10 @@ const About = () => {
       <div className="container">
       <div id="main">
         <div className="item">
-          <img src="public/images/about-1.jpg" alt="" />
+          <img src="/images/about-1.jpg" alt="" />
         </div>
         <div className="item">
-          <img src="public/images/about-2.jpg" alt="" />
+          <img src="/images/about-2.jpg" alt="" />
         </div>
         <div className="item">
           <h2>Explore the World with Confidence</h2>
