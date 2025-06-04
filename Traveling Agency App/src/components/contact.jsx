@@ -3,7 +3,6 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="main-contact">
-      <p id="msg">This Website is designed on not be able to open on below 400px width screens. <br/> Please Open Website on greater screen. </p>
     <div className="contact">
       <div className="form">
         <form action="">

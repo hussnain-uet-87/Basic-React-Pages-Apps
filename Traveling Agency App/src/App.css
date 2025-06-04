@@ -124,10 +124,11 @@ body {
   .hamburger .span{
     width:  32px;
     height: 7px;
-    background-color: yellow;
+    background-color: #fe603e;
     display: block;
     margin-top: 4px;
   }
+
 }
 /* home styling */
 #hero {
@@ -320,7 +321,7 @@ body {
 @media (max-width: 600px) {
   .about #main {
     display: grid;
-    grid-template-columns: repeat(2, 220px);
+    grid-template-columns: repeat(2, 150px);
     grid-template-rows: repeat(2, 100px);
     gap: 10px;
     margin-top: 500px;
@@ -332,9 +333,7 @@ body {
   #main .item:nth-child(2){
     grid-column: span 2;
   }
-  #main .item:nth-child(3) {
-   
-  }
+  
   #main .item:nth-child(4){
     padding: 10px;
   }
@@ -457,16 +456,9 @@ body {
   }
 }
 @media (max-width: 400px) {
-  .contact {
-    display: none;
-  }
-  .main-contact #msg {
-    display: block;
-    margin: 20px;
-    font-size: 16px;
-    width: 200px;
-    margin-top: 200px;
-  }
+    .contact .form ,.contact .content {
+      min-width: 300px;
+    }
 }
 
 /* services page css */
