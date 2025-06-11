@@ -194,6 +194,25 @@ body {
 #hero #hero-img img {
   height: 550px;
 }
+@media (max-width: 490px)
+{
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20%;
+  }
+  #hero #hero-content{
+    width: 400px;
+    flex-shrink: 0;
+    margin-left: -20px;
+    flex: 0 0 80%;
+
+  }
+  #hero #hero-content h1 {
+  font-size: 30px;
+}
+}
 /* about us page styling */
 
 .about {
